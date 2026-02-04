@@ -178,6 +178,14 @@ export default function ExamPage() {
     setMode("inProgress");
   };
 
+  const handleViewResultsFromReview = () => {
+    const unanswered = sampleQuestions.length - Object.keys(effectiveAnswers).length;
+    if (!isTimeUp && unanswered > 0 && !window.confirm(`${unanswered} question(s) unanswered. Submit anyway?`)) {
+      return;
+    }
+    setMode("results");
+  };
+
   if (mode === "review") {
     return (
       <div className="container mx-auto py-10 max-w-3xl space-y-6">
@@ -222,13 +230,7 @@ export default function ExamPage() {
           </CardContent>
           <CardFooter className="flex flex-wrap gap-3">
             <Button variant="outline" onClick={handleReturnToExam} disabled={isTimeUp}>Back to Exam</Button>
-            <Button onClick={() => {
-              if (!isTimeUp && Object.keys(answers).length < sampleQuestions.length) {
-                handleFinish();
-              } else {
-                setMode("results");
-              }
-            }}>View Results</Button>
+            <Button onClick={handleViewResultsFromReview}>View Results</Button>
           </CardFooter>
         </Card>
       </div>
@@ -296,8 +298,8 @@ export default function ExamPage() {
           >
             {currentQuestion.options.map((option, index) => (
               <div key={`${currentQuestion.id}-${index}`} className="flex items-center space-x-3 space-y-0 border p-4 rounded-lg cursor-pointer hover:bg-accent transition-colors">
-                <RadioGroupItem value={index.toString()} id={`option-${index}`} />
-                <Label htmlFor={`option-${index}`} className="flex-1 cursor-pointer font-normal">
+                <RadioGroupItem value={index.toString()} id={`${currentQuestion.id}-option-${index}`} />
+                <Label htmlFor={`${currentQuestion.id}-option-${index}`} className="flex-1 cursor-pointer font-normal">
                   {option}
                 </Label>
               </div>
