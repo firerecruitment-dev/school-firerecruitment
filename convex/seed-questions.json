@@ -1,0 +1,66 @@
+[
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A firefighter is using a 1.75-inch handline that flows 150 GPM. If the friction loss is 30 PSI per 100 feet, what is the total friction loss for a 200-foot hose lay?",
+    "options": ["30 PSI", "45 PSI", "60 PSI", "90 PSI"],
+    "correctAnswerIndex": 2,
+    "explanation": "Friction loss is cumulative. 30 PSI per 100ft x 2 units of 100ft = 60 PSI.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A brush truck has a 500-gallon water tank. If the pump is discharging water at a rate of 25 GPM, how many minutes will the water last?",
+    "options": ["15 mins", "20 mins", "25 mins", "30 mins"],
+    "correctAnswerIndex": 1,
+    "explanation": "500 gallons / 25 gallons per minute = 20 minutes.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "In a 3:1 mechanical advantage system, if a firefighter pulls 30 feet of rope, how far will the load move?",
+    "options": ["10 feet", "15 feet", "30 feet", "90 feet"],
+    "correctAnswerIndex": 0,
+    "explanation": "In a 3:1 system, you pull 3 times as much rope as the distance the load moves. 30ft / 3 = 10ft.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "To lift a heavy beam with a pry bar, where should the fulcrum be placed to require the least amount of effort from the firefighter?",
+    "options": ["In the middle", "Far from the beam", "As close to the beam as possible", "At the very end of the bar"],
+    "correctAnswerIndex": 2,
+    "explanation": "The closer the fulcrum is to the load, the greater the mechanical advantage (lever arm length).",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Problem Sensitivity",
+    "question": "You are ventilating a roof and notice the decking feels 'spongy' under your feet. What is the most immediate danger?",
+    "options": ["Equipment failure", "Flashover", "Structural collapse", "Backdraft"],
+    "correctAnswerIndex": 2,
+    "explanation": "Spongy roofs are a primary indicator of weakened structural integrity and imminent collapse.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Problem Sensitivity",
+    "question": "You arrive at a multi-vehicle accident. You see smoke coming from one car, an elderly man confused on the sidewalk, and a downed power line near the third car. What is your first priority?",
+    "options": ["Extinguish the car fire", "Treat the elderly man", "Secure the area around the power line", "Call for more backup"],
+    "correctAnswerIndex": 2,
+    "explanation": "Scene safety is always first. A downed power line represents a lethal, uncontrolled hazard to everyone.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Information Ordering",
+    "question": "Place these steps in the correct order for a standard hydrant connection: 1. Flush hydrant, 2. Connect supply line, 3. Open hydrant fully, 4. Wrap hydrant.",
+    "options": ["1-2-3-4", "4-1-2-3", "4-2-1-3", "2-4-1-3"],
+    "correctAnswerIndex": 2,
+    "explanation": "Standard procedure: Wrap (secure), Connect (supply), Flush (clear debris), Open fully.",
+    "difficulty": "hard"
+  },
+  {
+    "category": "Information Ordering",
+    "question": "Which of the following represents the correct sequence for an emergency 'Mayday' call?",
+    "options": ["Identify Unit -> Location -> Conditions -> Resources Needed", "Resources Needed -> Conditions -> Location -> Unit", "Conditions -> Unit -> Resources -> Location"],
+    "correctAnswerIndex": 0,
+    "explanation": "The LUNAR or standard protocol usually starts with WHO you are and WHERE you are before what is happening.",
+    "difficulty": "medium"
+  }
+]
