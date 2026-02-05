@@ -2,7 +2,12 @@
   {
     "category": "Mathematical Reasoning",
     "question": "A firefighter is using a 1.75-inch handline that flows 150 GPM. If the friction loss is 30 PSI per 100 feet, what is the total friction loss for a 200-foot hose lay?",
-    "options": ["30 PSI", "45 PSI", "60 PSI", "90 PSI"],
+    "options": [
+      "30 PSI",
+      "45 PSI",
+      "60 PSI",
+      "90 PSI"
+    ],
     "correctAnswerIndex": 2,
     "explanation": "Friction loss is cumulative. 30 PSI per 100ft x 2 units of 100ft = 60 PSI.",
     "difficulty": "medium"
@@ -10,7 +15,12 @@
   {
     "category": "Mathematical Reasoning",
     "question": "A brush truck has a 500-gallon water tank. If the pump is discharging water at a rate of 25 GPM, how many minutes will the water last?",
-    "options": ["15 mins", "20 mins", "25 mins", "30 mins"],
+    "options": [
+      "15 mins",
+      "20 mins",
+      "25 mins",
+      "30 mins"
+    ],
     "correctAnswerIndex": 1,
     "explanation": "500 gallons / 25 gallons per minute = 20 minutes.",
     "difficulty": "easy"
@@ -18,7 +28,12 @@
   {
     "category": "Mechanical Reasoning",
     "question": "In a 3:1 mechanical advantage system, if a firefighter pulls 30 feet of rope, how far will the load move?",
-    "options": ["10 feet", "15 feet", "30 feet", "90 feet"],
+    "options": [
+      "10 feet",
+      "15 feet",
+      "30 feet",
+      "90 feet"
+    ],
     "correctAnswerIndex": 0,
     "explanation": "In a 3:1 system, you pull 3 times as much rope as the distance the load moves. 30ft / 3 = 10ft.",
     "difficulty": "medium"
@@ -26,7 +41,12 @@
   {
     "category": "Mechanical Reasoning",
     "question": "To lift a heavy beam with a pry bar, where should the fulcrum be placed to require the least amount of effort from the firefighter?",
-    "options": ["In the middle", "Far from the beam", "As close to the beam as possible", "At the very end of the bar"],
+    "options": [
+      "In the middle",
+      "Far from the beam",
+      "As close to the beam as possible",
+      "At the very end of the bar"
+    ],
     "correctAnswerIndex": 2,
     "explanation": "The closer the fulcrum is to the load, the greater the mechanical advantage (lever arm length).",
     "difficulty": "easy"
@@ -34,7 +54,12 @@
   {
     "category": "Problem Sensitivity",
     "question": "You are ventilating a roof and notice the decking feels 'spongy' under your feet. What is the most immediate danger?",
-    "options": ["Equipment failure", "Flashover", "Structural collapse", "Backdraft"],
+    "options": [
+      "Equipment failure",
+      "Flashover",
+      "Structural collapse",
+      "Backdraft"
+    ],
     "correctAnswerIndex": 2,
     "explanation": "Spongy roofs are a primary indicator of weakened structural integrity and imminent collapse.",
     "difficulty": "easy"
@@ -42,7 +67,12 @@
   {
     "category": "Problem Sensitivity",
     "question": "You arrive at a multi-vehicle accident. You see smoke coming from one car, an elderly man confused on the sidewalk, and a downed power line near the third car. What is your first priority?",
-    "options": ["Extinguish the car fire", "Treat the elderly man", "Secure the area around the power line", "Call for more backup"],
+    "options": [
+      "Extinguish the car fire",
+      "Treat the elderly man",
+      "Secure the area around the power line",
+      "Call for more backup"
+    ],
     "correctAnswerIndex": 2,
     "explanation": "Scene safety is always first. A downed power line represents a lethal, uncontrolled hazard to everyone.",
     "difficulty": "medium"
@@ -50,7 +80,12 @@
   {
     "category": "Information Ordering",
     "question": "Place these steps in the correct order for a standard hydrant connection: 1. Flush hydrant, 2. Connect supply line, 3. Open hydrant fully, 4. Wrap hydrant.",
-    "options": ["1-2-3-4", "4-1-2-3", "4-2-1-3", "2-4-1-3"],
+    "options": [
+      "1-2-3-4",
+      "4-1-2-3",
+      "4-2-1-3",
+      "2-4-1-3"
+    ],
     "correctAnswerIndex": 2,
     "explanation": "Standard procedure: Wrap (secure), Connect (supply), Flush (clear debris), Open fully.",
     "difficulty": "hard"
@@ -58,9 +93,423 @@
   {
     "category": "Information Ordering",
     "question": "Which of the following represents the correct sequence for an emergency 'Mayday' call?",
-    "options": ["Identify Unit -> Location -> Conditions -> Resources Needed", "Resources Needed -> Conditions -> Location -> Unit", "Conditions -> Unit -> Resources -> Location"],
+    "options": [
+      "Identify Unit -> Location -> Conditions -> Resources Needed",
+      "Resources Needed -> Conditions -> Location -> Unit",
+      "Conditions -> Unit -> Resources -> Location"
+    ],
     "correctAnswerIndex": 0,
     "explanation": "The LUNAR or standard protocol usually starts with WHO you are and WHERE you are before what is happening.",
     "difficulty": "medium"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A pump discharges 500 GPM through a line with friction loss 10 PSI per 100 ft. What is the total friction loss for 300 ft?",
+    "options": [
+      "10 PSI",
+      "20 PSI",
+      "30 PSI",
+      "40 PSI"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "10 PSI per 100 ft × 3 = 30 PSI.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A 750‑gallon tank flows at 30 GPM. How long will it last?",
+    "options": [
+      "20 min",
+      "25 min",
+      "30 min",
+      "35 min"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "750 ÷ 30 = 25 minutes.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A crew needs 1200 gallons. At 150 GPM, how long will it take?",
+    "options": [
+      "6 min",
+      "8 min",
+      "10 min",
+      "12 min"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "1200 ÷ 150 = 8 minutes.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A hose line flows 200 GPM. Friction loss is 25 PSI per 100 ft. What is the loss for 400 ft?",
+    "options": [
+      "50 PSI",
+      "75 PSI",
+      "100 PSI",
+      "125 PSI"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "25 × 4 = 100 PSI.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A firefighter climbs 6 flights in 4 minutes. At the same pace, how long for 15 flights?",
+    "options": [
+      "8 min",
+      "10 min",
+      "12 min",
+      "14 min"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "6 flights/4 min = 1.5 flights/min. 15 ÷ 1.5 = 10 min.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A nozzle needs 75 PSI. Appliance loss is 15 PSI and elevation loss is 10 PSI. What is PDP?",
+    "options": [
+      "80 PSI",
+      "90 PSI",
+      "100 PSI",
+      "110 PSI"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "75 + 15 + 10 = 100 PSI.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A 2.5‑inch line flows 250 GPM. Friction loss is 8 PSI per 100 ft. What is the loss for 500 ft?",
+    "options": [
+      "16 PSI",
+      "24 PSI",
+      "32 PSI",
+      "40 PSI"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "8 × 5 = 40 PSI.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A truck fills a 1200‑gallon tank in 24 minutes. What is the fill rate?",
+    "options": [
+      "40 GPM",
+      "45 GPM",
+      "50 GPM",
+      "55 GPM"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "1200 ÷ 24 = 50 GPM.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A firefighter walks 1.2 km in 15 minutes. What is the speed?",
+    "options": [
+      "3.6 km/h",
+      "4.8 km/h",
+      "5.2 km/h",
+      "6.0 km/h"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "1.2 km in 0.25 h → 1.2/0.25 = 4.8 km/h.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mathematical Reasoning",
+    "question": "A 100‑ft ladder weighs 80 lb. What does a 150‑ft ladder weigh at the same weight per foot?",
+    "options": [
+      "100 lb",
+      "110 lb",
+      "120 lb",
+      "130 lb"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "80/100 = 0.8 lb/ft; 0.8 × 150 = 120 lb.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "Two gears mesh. If Gear A turns clockwise, Gear B turns:",
+    "options": [
+      "Clockwise",
+      "Counter‑clockwise",
+      "Doesn’t move",
+      "Random"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Meshed gears rotate in opposite directions.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "A 4:1 mechanical advantage means 40 lb effort lifts how much?",
+    "options": [
+      "80 lb",
+      "120 lb",
+      "160 lb",
+      "200 lb"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "4 × 40 = 160 lb.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "In a pulley system, if you pull 12 ft of rope and the load moves 3 ft, the mechanical advantage is:",
+    "options": [
+      "2:1",
+      "3:1",
+      "4:1",
+      "6:1"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Distance ratio 12:3 = 4:1.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "Which lever setup gives the greatest advantage?",
+    "options": [
+      "Fulcrum near load",
+      "Fulcrum near effort",
+      "Fulcrum centered",
+      "No fulcrum"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Shorter load arm increases mechanical advantage.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "If water flows through a pipe that narrows, the water speed:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Stops",
+      "Reverses"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Continuity: velocity increases as area decreases.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "A heavier object on the same incline (same surface) will:",
+    "options": [
+      "Accelerate faster",
+      "Accelerate slower",
+      "Same acceleration",
+      "Stop"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Acceleration down an incline is independent of mass (neglecting friction).",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "Gear A has 10 teeth and Gear B has 20 teeth. Gear B turns:",
+    "options": [
+      "Faster",
+      "Same speed",
+      "Half speed",
+      "Double speed"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Speed is inversely proportional to teeth count. 20 teeth → half speed.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "A long pry bar makes lifting easier because it:",
+    "options": [
+      "Increases friction",
+      "Increases torque",
+      "Reduces weight",
+      "Changes gravity"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Longer lever arm increases torque for same effort.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "A sealed syringe with the tip blocked is pushed. What happens?",
+    "options": [
+      "Moves easily",
+      "Stops due to pressure",
+      "Pulls back",
+      "Breaks"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Compressed air resists movement, increasing pressure.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Mechanical Reasoning",
+    "question": "A ladder leaning at a steeper angle will place more force on:",
+    "options": [
+      "The base",
+      "The top",
+      "Both equal",
+      "Neither"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Steeper angle increases vertical load on the top contact.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "You enter at A. Follow the arrows (left, left, right). Which side are you now facing?",
+    "imageUrl": "/diagrams/spatial-01.png",
+    "imagePrompt": "Rectangular floorplan labeled A,B,C,D with entry and path arrows left-left-right.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The final arrow points toward side C.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Which face becomes opposite Face 1 when this net folds into a cube?",
+    "imageUrl": "/diagrams/spatial-02.png",
+    "imagePrompt": "Cube net labeled 1–6.",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Face 6 folds opposite face 1 in this net.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Starting at the bottom-left, follow the arrows. Which room do you end in?",
+    "imageUrl": "/diagrams/spatial-03.png",
+    "imagePrompt": "3x3 grid, start bottom-left, arrows up up right right down.",
+    "options": [
+      "Top-left",
+      "Top-right",
+      "Middle-right",
+      "Bottom-right"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Ends in the middle-right cell.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Starting facing North, turn right, right, left. What direction are you facing?",
+    "imageUrl": "/diagrams/spatial-04.png",
+    "imagePrompt": "Compass with N,E,S,W and turn arrows right, right, left.",
+    "options": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "North → East → South → East.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Follow the path from Entry. Which door do you reach?",
+    "imageUrl": "/diagrams/spatial-05.png",
+    "imagePrompt": "Hallway with three doors labeled 1,2,3 and arrow path to Door 3.",
+    "options": [
+      "Door 1",
+      "Door 2",
+      "Door 3",
+      "None"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The path ends at Door 3 on the left wall.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "After following the L‑path arrows, which direction are you facing?",
+    "imageUrl": "/diagrams/spatial-06.png",
+    "imagePrompt": "L‑shaped path with arrows forward, right, forward, left.",
+    "options": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Final facing direction is East.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Which position must the missing square occupy to fold into a cube?",
+    "imageUrl": "/diagrams/spatial-07.png",
+    "imagePrompt": "Cube net with missing square marked ? and solution shown.",
+    "options": [
+      "Top",
+      "Bottom",
+      "Left",
+      "Right"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The missing square must be below the center (bottom).",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Enter from A, go up, then left at the T. Which side are you closest to?",
+    "imageUrl": "/diagrams/spatial-08.png",
+    "imagePrompt": "T‑intersection labeled A,B,C,D with arrow up then left.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Turning left at the top leads toward side D.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Start at top‑left. Follow the arrows. Where do you end?",
+    "imageUrl": "/diagrams/spatial-09.png",
+    "imagePrompt": "4x4 grid, arrow path right right down left down right.",
+    "options": [
+      "(Row 1, Col 4)",
+      "(Row 2, Col 3)",
+      "(Row 3, Col 4)",
+      "(Row 4, Col 3)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Path ends in row 2, column 3.",
+    "difficulty": "medium"
+  },
+  {
+    "category": "Spatial/Visualization",
+    "question": "Which net option folds into the cube with the shaded top face?",
+    "imageUrl": "/diagrams/spatial-10.png",
+    "imagePrompt": "Cube with shaded top and three net options A/B/C.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "None"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Option B matches the shaded top orientation.",
+    "difficulty": "hard"
   }
 ]
